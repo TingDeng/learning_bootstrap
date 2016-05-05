@@ -18,3 +18,10 @@ $('.carousel .item').each(function(){
         $(this).siblings(':first').children(':first-child').clone().appendTo($(this));
     }
 });
+// $('.info').click(function(){
+//          $(this).find('.card').addClass('flipped').mouseleave(function(){
+//              $(this).removeClass('flipped');
+//          });
+//          return false;
+//      });
+// $('.info').flip();
