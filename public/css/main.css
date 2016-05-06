@@ -12,7 +12,7 @@ margin-left: -30px;
 position: absolute;
 }
 .avn{
-  margin-right: 10%;
+  margin-right: 20%;
   margin-top: 5px;
 }
 .phone{
@@ -143,9 +143,19 @@ text-align: center;
 .e1{
   margin-top: 1%;
 }
-.end1{
+.end2{
+
+  padding: 0 !important;
+  border-left:1px solid white;
+  padding-right: 0%;
   font-size: 80;
   text-align: center;
+
+}
+.end1{
+  font-size: 80;
+  padding: 0 !important;
+
 }
 #bottom{
   font-size: 80;
@@ -160,10 +170,13 @@ text-align: center;
   text-align: center;
 
 }
+.phone{
+  margin-top: 5%;
+  position: absolute;
+  font-weight: bolder;
+}
 #raise{
   font-family: sans-serif;
-  font-weight: bolder;
-  /*margin-left: 20%;*/
   color: black;
   text-align: center;
   text-transform: uppercase;
@@ -213,9 +226,10 @@ img:hover{
  margin-right: 1px;
 }
 #intro{
- width: 800px;
- margin-right: 10px;
- text-align: justify;
+ width: 1080px;
+ margin-left: -27%;
+ margin-right: 30px;
+ text-align: center;
 }
 h3{
  margin-left: 10%;
@@ -246,7 +260,7 @@ h3{
   margin-left: 1.5%;
   background-size: cover;
 }
-.yi:hover{
+/*.yi:hover{
   transform: rotatex(360deg);
 
 }
@@ -266,7 +280,7 @@ h3{
 }
 .op{
   transition: all 0.6s ease;
-}
+}*/
 
 .col-xs-12.col-md-4.op{
   background-image: url("../image/v.jpg");
@@ -384,7 +398,14 @@ list-style-type: none;
 }
 .te{
   color: white;
-
+}
+.te:hover{
+  text-decoration: none;
+  color:white;
+}
+.ga:hover{
+  text-decoration: none;
+  color:white;
 }
 .lk{
   padding-right: 24%;
@@ -427,17 +448,42 @@ div#end1{
 #inner{
 position:relative;
 width: 900px;
-height: 500px;
+height: 600px;
 background-color: #3B3131;
 color: white;
 opacity: 0.8;
 margin-right: 30%;
 margin-left: 20%;
-margin-top: 10%;
+margin-top: 5%;
 margin-bottom: 30%;
 border-color: grey;
 border-radius: 1px;
-border-style: double;
+}
+.active.color{
+  margin-left: 26%;
+  border-bottom: 8px solid #cc5200;
+}
+.color{
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  /*border-bottom: 8px solid #b32400;*/
+}
+.ne{
+  border-bottom: 8px solid #484848;
+}
+.xt{
+  border-bottom: 8px solid #484848;
+}
+.ne:active{
+  border-bottom: 8px solid #cc5200;
+}
+.xt:active{
+  border-bottom: 8px solid #cc5200;
+}
+.color:hover{
+  color: white;
+  text-decoration: none;
 }
 .t1{
   text-align: justify;
